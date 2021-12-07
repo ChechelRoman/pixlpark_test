@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
 import './App.css';
@@ -100,10 +100,10 @@ function App() {
 
   return (
     <div className="App">
-    <form onSubmit={handleSubmit}>
-      <input type="text" placeholder="Type how many orders to display (1-50)" onChange={handleInput}/>
-      <button type="submit">Submit</button>
-    </form>
+      <form onSubmit={handleSubmit}>
+        <input type="text" placeholder="Type how many orders to display (1-50)" onChange={handleInput}/>
+        <button type="submit">Submit</button>
+      </form>
     {isOrdersFetched ?
       <table>
         <thead>
